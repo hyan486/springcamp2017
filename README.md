@@ -3,7 +3,7 @@ eventsourcing &amp; cqrs demo project for springcamp2017
 
 ## Required
 
-* Java8
+* Java8 (sdk list java > sdk install java xxxxx.zulu)
 * Redis 2.x - using default port ( 6379 )
 * Mysql 5.x - using default port ( 3306 )
 * Zookeeper - using default port( 2181 )
@@ -16,8 +16,12 @@ eventsourcing &amp; cqrs demo project for springcamp2017
 3. create database & table ( default user is root )
 	* execute script into each service directory/scripts
 	* e.g. member/scripts/create_database_table.sql
+	* mysql docker 안으로 접속 > mysql -uroot -p (password: root)
+	* 만약 caching_sha2_password error나면, 
+	      ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY 'root';
 4. Add hosts information to hosts file on your Operating System.
 	* 127.0.0.1 member.jaceshim.com order.jaceshim.com product.jaceshim.com
+	https://10001-hyan486-springcamp2017-pzo9qwx5gtz.ws-us47.gitpod.io/.    (https://{service port}-{my gitpod url})
 
 ## Run
 1. Execute SpringBoot Application
