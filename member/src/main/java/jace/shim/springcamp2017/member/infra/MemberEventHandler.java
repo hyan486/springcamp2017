@@ -18,4 +18,4 @@ public class MemberEventHandler extends AbstractEventHandler<Member, String> {
 		SnapshotRepository snapshotRepository) {
 		super(eventStore, snapshotRepository);
 	}
-}
+} 

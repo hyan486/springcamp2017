@@ -16,7 +16,7 @@ public final class MemberCommand implements Command {
 
 	@Getter
 	@NoArgsConstructor
-	public static class CreateMember {
+	public static class CreateMember {  
 		/** 회원 아이디 */
 		@NotNull
 		@Size(min=4, max=8)

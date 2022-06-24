@@ -46,6 +46,8 @@ If you using docker then Please execute blow commands.
 		init_connect='SET collation_connection = utf8_general_ci'
 		skip-character-set-client-handshake
      
+
+	 
      
      
      

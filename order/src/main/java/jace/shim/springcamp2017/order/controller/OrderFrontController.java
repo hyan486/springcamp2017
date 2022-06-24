@@ -37,7 +37,7 @@ public class OrderFrontController {
 
 	private static DecimalFormat PRICE_DECIMAL_FORMAT = new DecimalFormat("#,##0");
 
-	private static String ORDER_API = "http://order.jaceshim.com:20001/api/orders";
+	private static String ORDER_API = "https://20001-hyan486-springcamp2017-pzo9qwx5gtz.ws-us47.gitpod.io/api/orders";
 
 	@Autowired
 	private ProductReadRepository productReadRepository;

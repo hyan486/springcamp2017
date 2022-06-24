@@ -25,9 +25,9 @@ public class MemberInfoRepository {
 
 	private static final String LOGIN_MEMBER_SESSION_ID_KEY = "sessionAttr:LOGIN_MEMBER_SESSION_ID_KEY";
 
-	private static final String MEMBER_SERVICE_HOST = "member.jaceshim.com";
+	private static final String MEMBER_SERVICE_HOST = "10001-hyan486-springcamp2017-pzo9qwx5gtz.ws-us47.gitpod.io";
 
-	private static final int MEMBER_SERVICE_PORT = 10001;
+	private static final int MEMBER_SERVICE_PORT = 443;
 
 	@Autowired
 	private RestTemplate restTemplate;

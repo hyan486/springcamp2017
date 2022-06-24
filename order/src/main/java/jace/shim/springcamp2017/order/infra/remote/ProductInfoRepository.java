@@ -14,8 +14,8 @@ import java.net.URI;
 @Component
 public class ProductInfoRepository {
 
-	private static final String PRODUCT_SERVICE_HOST = "product.jaceshim.com";
-	private static final int PRODUCT_SERVICE_PORT = 30001;
+	private static final String PRODUCT_SERVICE_HOST = "30001-hyan486-springcamp2017-pzo9qwx5gtz.ws-us47.gitpod.io";
+	private static final int PRODUCT_SERVICE_PORT = 443;
 
 	@Autowired
 	private RestTemplate restTemplate;
